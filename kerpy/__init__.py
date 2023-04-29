@@ -1,4 +1,2 @@
-
-from . import (diff, shapes, smoothing)
-
-
+"""Root of the KerPy module"""
+from . import (diff, processing, shapes)

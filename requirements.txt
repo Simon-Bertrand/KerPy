@@ -7,3 +7,4 @@ pytest-runner
 sphinx
 sphinx-book-theme
 ipykernel
+pylint
