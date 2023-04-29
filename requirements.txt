@@ -8,3 +8,4 @@ sphinx
 sphinx-book-theme
 ipykernel
 pylint
+versioneer
