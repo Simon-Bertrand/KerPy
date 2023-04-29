@@ -1,9 +1,7 @@
 name: Sphinx build
 
 on: 
-  push:
-    tags:
-      - 'v*.*.*'
+  push
 
 jobs:
   docs:
