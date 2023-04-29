@@ -41,15 +41,13 @@ class Kernel:
     def __and__(self, other): return Kernel(self.numpy.__and__(other.numpy if isinstance(other, Kernel) else other) )
     def __or__(self, other): return Kernel(self.numpy.__or__(other.numpy if isinstance(other, Kernel) else other) )
     def __xor__(self, other): return Kernel(self.numpy.__xor__(other.numpy if isinstance(other, Kernel) else other) )
-    def __LT__(self, other): return Kernel(self.numpy.__LT__ (other.numpy if isinstance(other, Kernel) else other) )
-    def __GT__(self, other): return Kernel(self.numpy.__GT__ (other.numpy if isinstance(other, Kernel) else other) )
-    def __LE__(self, other): return Kernel(self.numpy.__LE__(other.numpy if isinstance(other, Kernel) else other) )
-    def __GE__(self, other): return Kernel(self.numpy.__GE__(other.numpy if isinstance(other, Kernel) else other) )
-    def __EQ__(self, other): return Kernel(self.numpy.__EQ__(other.numpy if isinstance(other, Kernel) else other) )
-    def __NE__(self, other): return Kernel(self.numpy.__NE__(other.numpy if isinstance(other, Kernel) else other) )
-    def __NEG__(self, other): return Kernel(self.numpy.__NEG__(other.numpy if isinstance(other, Kernel) else other) )
-    def __POS__(self, other): return Kernel(self.numpy.__POS__(other.numpy if isinstance(other, Kernel) else other) )
-    def __INVERT__(self, other): return Kernel(self.numpy.__INVERT__(other.numpy if isinstance(other, Kernel) else other) )
+    def __lt__(self, other): return Kernel(self.numpy.__lt__ (other.numpy if isinstance(other, Kernel) else other) )
+    def __gt__(self, other): return Kernel(self.numpy.__gt__ (other.numpy if isinstance(other, Kernel) else other) )
+    def __le__(self, other): return Kernel(self.numpy.__le__(other.numpy if isinstance(other, Kernel) else other) )
+    def __ge__(self, other): return Kernel(self.numpy.__ge__(other.numpy if isinstance(other, Kernel) else other) )
+    def __eq__(self, other): return Kernel(self.numpy.__eq__(other.numpy if isinstance(other, Kernel) else other) )
+    def __ne__(self, other): return Kernel(self.numpy.__ne__(other.numpy if isinstance(other, Kernel) else other) )
+    def ___invert__(self, other): return Kernel(self.numpy.___invert__(other.numpy if isinstance(other, Kernel) else other) )
  
 
 
