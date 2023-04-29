@@ -1,3 +1,4 @@
+# pylint: skip-file
 
 # Version: 0.28
 
