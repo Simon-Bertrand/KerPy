@@ -11,12 +11,12 @@ jobs:
       - name: Install dependencies
         run: |
           ./scripts/install.sh
-      - name: Sphinx build
-        run: |
-          ./scripts/build.sh
       - name: Test
         run: |
           ./scripts/test.sh
+      - name: Sphinx build
+        run: |
+          ./scripts/build.sh
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.ref == 'refs/heads/main' }}
