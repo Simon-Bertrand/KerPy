@@ -9,7 +9,7 @@
 <div align="center">
 <a href="">Manual installation</a>
 <span> · </span>
-<a href="">Documentation</a>
+<a href="https://simon-bertrand.github.io/KerPy/" title="Documentation">Documentation</a>
 <span>
 </div>
 
