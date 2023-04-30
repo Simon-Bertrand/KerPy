@@ -6,14 +6,30 @@
 Official KerPy's documentation
 =================================
 
+
+
+
 .. toctree::
    :maxdepth: 3
-   :caption: Contents:
+   :caption: Installation:
+
+   installation
+
+
+.. toctree::
+   :maxdepth: 3
+   :caption: Kernel Object:
+
+   kernel
+
+.. toctree::
+   :maxdepth: 3
+   :caption: Kernels Generation:
 
    kerpy_diff
    kerpy_shapes
    kerpy_processing
-   kernels
+
 
 Indices and tables
 ==================

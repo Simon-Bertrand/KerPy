@@ -1,7 +1,7 @@
-Kernel Object
+Methods
 =============
 
-.. automodule:: kerpy.obj.Kernel
+.. automodule:: kerpy.objs.Kernel
    :members:
    :undoc-members:
    :show-inheritance:
