@@ -24,3 +24,24 @@ The features of this project :
 - Allow easily to pad or stride your generated kernels.
 - Contributing : Feel free to ask an implementation of a given kernel or doing it directly.
 
+
+
+## Installation
+
+Proceed the installation using pip :
+```bash
+pip install KernelsPython
+```
+
+Then, import the module "kerpy" in Python :
+```python
+import kerpy
+kerpy.diff.finite().divergence()
+```
+ ```
+<kerpy.Kernel numpy =
+[[ 0. -1.  0.]
+ [-1.  2.  0.]
+ [ 0.  0.  0.]] at 0x25fb8477eb0>
+ ```
+
