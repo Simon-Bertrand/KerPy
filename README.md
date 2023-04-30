@@ -33,9 +33,15 @@ Proceed the installation using pip :
 pip install KernelsPython
 ```
 
-Then, import the module in Python :
+Then, import the module "kerpy" in Python :
 ```python
 import kerpy
 kerpy.diff.finite().divergence()
 ```
+ ```
+<kerpy.Kernel numpy =
+[[ 0. -1.  0.]
+ [-1.  2.  0.]
+ [ 0.  0.  0.]] at 0x25fb8477eb0>
+ ```
 
