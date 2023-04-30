@@ -2,7 +2,7 @@
 
 <picture>
   <p align="center">
-  <img src="https://user-images.githubusercontent.com/84455908/235353433-d52ace67-d442-4c56-8c28-1c063cecd3d3.png" alt = "KerPy logo"/>
+  <img src="https://i.ibb.co/5cCWqTW/Ker-Py-logo.png" alt = "KerPy logo"/>
   </p>
 </picture>
 
