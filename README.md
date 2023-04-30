@@ -2,7 +2,7 @@
 
 <picture>
   <p align="center">
-    <img alt="KerPy" src="https://user-images.githubusercontent.com/84455908/235353054-9143c379-6d3d-410b-b2f3-e049e0e91f8e.png" width="200" />
+  ![KerPy logo](https://user-images.githubusercontent.com/84455908/235353433-d52ace67-d442-4c56-8c28-1c063cecd3d3.png)
   </p>
 </picture>
 
