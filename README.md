@@ -1,7 +1,7 @@
 
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/84455908/235353637-12ff6fa0-c7f8-40a6-965f-1c03b169c45f.png" />
+<img src="https://raw.githubusercontent.com/Simon-Bertrand/KerPy/main/docs/source/_static/KerPy.png" width="200"/>
 </div>
 
 
