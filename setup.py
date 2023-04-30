@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 with open("requirements.txt", "r") as fh:
     requirements = [line.strip() for line in fh]
 setup(
-    name='KerPy',
+    name='KernelsPython',
     packages=find_packages(include=['kerpy']),
     version=versioneer.get_version(),
     cmdclass=versioneer.get_cmdclass(),
