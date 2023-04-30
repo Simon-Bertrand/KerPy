@@ -1,7 +1,7 @@
 """Generate image processing kernels"""
 import numpy as np
-from kerpy.diff import laplacian
-from kerpy.objs.Kernel import Kernel
+from .diff import laplacian
+from .objs.Kernel import Kernel
 
 @Kernel.decorator
 def gaussian(size=(3,3), std=(1,1), normalize=True) -> Kernel:

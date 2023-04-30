@@ -1,8 +1,8 @@
 """Generate differential kernels"""
 import numpy as np
-from kerpy import shapes
+from . import shapes
 
-from kerpy.objs.Kernel import Kernel
+from .objs.Kernel import Kernel
 
 
 @Kernel.decorator

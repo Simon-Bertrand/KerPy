@@ -7,7 +7,7 @@ with open("requirements.txt", "r") as fh:
     requirements = [line.strip() for line in fh]
 setup(
     name='KernelsPython',
-    packages=find_packages(include=['kerpy']),
+    packages=find_packages(".", include=["kerpy"]),
     version=versioneer.get_version(),
     cmdclass=versioneer.get_cmdclass(),
     description='A Python library to generate 2D-kernels for convolutions, mathematical morphology and more',

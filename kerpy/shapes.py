@@ -1,7 +1,7 @@
 """Generate shapes kernels"""
 import numpy as np
 
-from kerpy.objs.Kernel import Kernel
+from .objs.Kernel import Kernel
 
 def _shapes_generator(
         size=(3,3),
