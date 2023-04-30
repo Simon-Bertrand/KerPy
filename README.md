@@ -1,10 +1,10 @@
 
 
-<picture>
-  <p align="center">
-  <img src="https://i.ibb.co/5cCWqTW/Ker-Py-logo.png" alt = "KerPy logo"/>
-  </p>
-</picture>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/84455908/235353637-12ff6fa0-c7f8-40a6-965f-1c03b169c45f.png" />
+</div>
+
+
 
 <div align="center"><strong>A Python library to generate 2D-kernels for convolutions, mathematical morphology and more</strong></div>
 <br />
